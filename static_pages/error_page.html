@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Помилка на сторінці - &quot;Підвезу!&quot;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Помилка на сторінці - &quot;Підвезу!&quot;" />
+    <meta name="description" content="Сервіс громадських перевезень, який частково розвантажує систему міського транспорту через взаємодопомогу жителів міста." />
+    <meta name="Keywords" content="перевезення,підвезу,підвезуть,carpool,carpooling,pidvezy,transportation,водії,пасажири,маршрутки,попутчики,автостоп,автостопом" />
+    <meta property="og:title" content="Помилка на сторінці - &quot;Підвезу!&quot;" />
+    <meta property="og:site_name" content="&quot;Підвезу!&quot;" />
+    <meta property="og:image" content="http://www.pidvezy.org/static/img/poster.png" />
+    <meta property="og:description" content="Сервіс громадських перевезень, який частково розвантажує систему міського транспорту через взаємодопомогу жителів міста." />
+    <link rel="icon" href="static/img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="static/img/favicon.png" type="image/x-icon" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.min.css" rel="stylesheet" />
+    <script language="javascript" type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css" />
+    <script language="javascript" type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link href="static/css/social/fontello.css" rel="stylesheet" />
+    <style>
+/** main.css **/
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('static/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('static/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
+       url('static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+       url('static/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+       url('static/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+       url('static/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+.fa-vk:before {
+    content: "\f189";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.fa-slideshare:before {
+    content: "\f1e7";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-android:before {
+content: "\f17b";
+}
+.fa-apple:before {
+  content: "\f179";
+}
+/**********************
+Profile view
+/*********************/
+.profile-container {
+    display: inline-block;
+    float: left;
+}
+.profile-titles {
+    display: inline-block;
+    margin-left: 20px
+}
+.profile-actions {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.share-btn a{
+    margin: 0 5px 0 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center
+}
+footer a {
+    color: #a1c133;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 30px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+
+.social-buttons {
+    display: inline;
+}
+ul.social-buttons li a {
+    color: #222;
+    background-color: #fff;
+    border-radius: 100%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active {
+    background-color: #a1c133;
+}
+    </style>
+    <!-- Google Analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-65764030-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Yandex.Metrika -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter32271904 = new Ya.Metrika({
+                        id: 32271904,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                    });
+                } catch (e) {}
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="http://www.pidvezy.org/about">Підвезу! <sup style="color: #a1c133">[alpha]</sup></a></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://www.pidvezy.org/passengers">Знайти пасажира</a></li>
+                    <li><a href="http://www.pidvezy.org/drivers">Знайти водія</a></li>
+                    <li><a href="http://www.pidvezy.org/blog">Блог</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://www.pidvezy.org/login/facebook/?next=/user/"><b>Увійти</b></a></li>
+                    <li class="dropdown"><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 7px 0 0;"><span>Зареєструватись</span><span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.pidvezy.org/login/facebook/?next=/settings/driver">як водій</a></li>
+                            <li><a href="http://www.pidvezy.org/login/facebook/?next=/settings/passenger">як пасажир</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <!-- MAIN BLOCK -->
+                <div class="container">
+                    <h1>#404. Сторінку не знайдено!</h1>
+                    <div>Ми робимо все можливе аби покращити наш сервіс. Спасибі за те, що користуєтесь...</div>
+                </div>
+                <!-- /MAIN BLOCK -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-unstyled quicklinks">
+                        <li><a href="http://www.pidvezy.org/faq">Часті запитання (FAQ)</a></li>
+                        <li><a href="http://www.pidvezy.org/rules">Пам'ятка ЛЕВа</a></li>
+                        <li><a href="http://www.pidvezy.org/team">Наша команда</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled quicklinks">
+                        <li><a href="http://www.pidvezy.org/blog">Новини та оновлення</a></li>
+                        <li><a href="http://www.pidvezy.org/redirect/to=https://www.tiny.cc/pidvezy_print">Графічні матеріали</a></li>
+                        <li><a href="http://www.pidvezy.org/privacy">Політика конфіденційності</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-offset-8"><span style="margin-right: 15px">Долучайтесь у соц.мережах!</span>
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://www.pidvezy.org/redirect/to=https://vk.com/pidvezu" target="_blank"><i class="fa fa-vk"></i></a></li>
+                        <li><a href="http://www.pidvezy.org/redirect/to=https://www.facebook.com/groups/pidvezy/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://www.pidvezy.org/redirect/to=https://www.youtube.com/channel/UC8PhptjjVqKhNb1gbLIy_Cw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <div class="copyright"><br>&copy; 2015-2016 Громадська ініціатива <a href="http://www.pidvezy.org/about">"Підвезу!"</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            var docHeight = $(window).height();
+            var footerHeight = $('#footer').height();
+            var footerTop = $('#footer').position().top + footerHeight;
+
+            if (footerTop < docHeight) {
+                $('#footer').css('margin-top', (docHeight - footerTop) - 50 + 'px');
+            }
+        });
+    </script>
+    <!-- /footer -->
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header my-dialog-header" id="dialog-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Підвезу!</h4></div>
+                <div class="modal-body">
+                    <p id="modal-text">Ваші зміни успішно збережено</p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Сховати</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
