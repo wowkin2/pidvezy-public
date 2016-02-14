@@ -1,0 +1,298 @@
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+th {
+    text-align: center
+}
+
+.table {
+    display: table;
+}
+.remember-search {
+    float: right;
+}
+/**********************
+SIGN-IN FORM
+**********************/
+.form-signin {
+  max-width: 480px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-control form:first-child {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-control form:last-child {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/**********************
+TEAM-MEMBERS
+**********************/
+.team-member {
+    text-align: center;
+    margin-bottom: 50px
+}
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff
+}
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none
+}
+.team-member p {
+    margin-top: 0
+}
+
+h3.section-subheading {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px
+}
+
+.my-dialog-header {
+    background-color: #428bca;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+
+/**********************
+ABOUT PAGE
+**********************/
+.start-header {
+    color: #a1c133;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.goal-item {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.goal-item-head {
+    text-decoration: underline;
+    font-weight: 700
+}
+#main_registration {
+    display: block;
+    width: 100%;
+}
+.statistics {
+    color: #0ae;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+/**********************
+Facebook button
+**********************/
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2)
+}
+
+.btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0,0,0,0.2)
+}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook {
+    background-image: none
+}
+.btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active {
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2)
+}
+.btn-facebook .badge {
+    background-color: #fff;
+    color: #3b5998;
+}
+
+.btn-social {
+    position: relative;
+    padding-left: 50px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.btn-social>:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 37px;
+    line-height: 39px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2)
+}
+.btn-social.btn-lg {
+    padding-left: 61px
+}
+
+.btn-social.btn-lg>:first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em
+}
+.btn-social.btn-sm {
+    padding-left: 38px
+}
+
+.btn-social.btn-sm>:first-child {
+    line-height: 28px;
+    width: 28px;
+    font-size: 1.4em
+}
+.btn-social.btn-xs {
+    padding-left: 30px
+}
+
+.btn-social.btn-xs>:first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
+       url('../font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+       url('../font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+       url('../font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+       url('../font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+.fa-vk:before {
+    content: "\f189";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.fa-slideshare:before {
+    content: "\f1e7";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-android:before {
+content: "\f17b";
+}
+.fa-apple:before {
+  content: "\f179";
+}
+/**********************
+Profile view
+/*********************/
+.profile-container {
+    display: inline-block;
+    float: left;
+}
+.profile-titles {
+    display: inline-block;
+    margin-left: 20px
+}
+.profile-actions {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.share-btn a{
+    margin: 0 5px 0 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center
+}
+footer a {
+    color: #a1c133;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 30px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+
+.social-buttons {
+    display: inline;
+}
+ul.social-buttons li a {
+    color: #222;
+    background-color: #fff;
+    border-radius: 100%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active {
+    background-color: #a1c133;
+}
